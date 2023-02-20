@@ -1,0 +1,308 @@
+@media (max-width:389px){
+    nav .con {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        height: 8rem;
+        .login{
+            width: 100%;
+        }
+        .navigation{
+            width: 100%;
+            font-size: 0.8rem;
+        }
+        .name{
+            width: 100%;
+            padding: 0;
+        }
+        .navigation {
+            display: flex;
+            justify-content: center;
+            margin: 0.2rem;
+        }
+     }
+
+     .blog{
+        margin-top: 1rem;
+        text-align: center;
+     }
+
+     .start_blogi{
+        margin-top: 3rem;
+        .row{
+            height: 20rem;
+            .started_blogi{
+                p{
+                    width: 100%;
+                    font-size: 12px;
+                }
+            }
+            
+        }
+    }
+
+    .featured_blogs {
+
+        .card{
+
+            .card-img{
+
+                .user_img{
+
+                    img{
+                        width: 3rem;
+                        height: 3rem;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        .icon {
+            a{
+                font-size: 10px;
+            }
+        }
+    } 
+
+    .company {
+        svg{
+            position: relative;
+            path{
+                fill: $dull_white;
+            }
+        }
+        .company_img{
+            position: absolute;
+            display: none;
+            }
+        }
+}
+
+
+
+@media  (min-width:390px) and (max-width:400px){
+    nav .con {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        height: 8rem;
+        .login{
+            width: 100%;
+        }
+        .navigation{
+            width: 100%;
+            font-size: 0.8rem;
+        }
+        .name{
+            width: 100%;
+            padding: 0;
+        }
+        .navigation {
+            display: flex;
+            justify-content: center;
+            margin: 0.2rem;
+        }
+     }
+
+    .start_blogi{
+        margin-top: 3rem;
+        .row{
+            height: 20rem;
+            .started_blogi{
+                p{
+                    width: 100%;
+                    font-size: 12px;
+                }
+            }
+            
+        }
+    }
+
+    footer {
+        .icon {
+            a{
+                font-size: 12px;
+            }
+        }
+    } 
+
+    .company {
+        svg{
+            position: relative;
+            path{
+                fill: $dull_white;
+            }
+        }
+        .company_img{
+            position: absolute;
+            display: none;
+            }
+        }
+}
+
+@media (min-width:401px) and (max-width:580px){
+    nav .con {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        height: 8rem;
+        .login{
+            width: 100%;
+        }
+        .navigation{
+            width: 100%;
+            font-size: 1.5rem;
+        }
+        .name{
+            width: 100%;
+            padding: 0;
+        }
+        .navigation {
+            display: flex;
+            justify-content: center;
+            margin: 0.2rem;
+        }
+     }
+
+     .blog{
+        margin-top: 2rem;
+        text-align: center;
+     }
+
+    .start_blogi{
+        margin-top: 3rem;
+        .row{
+            height: 20rem;
+            .started_blogi{
+                p{
+                    width: 100%;
+                    font-size: 12px;
+                }
+            }
+            
+        }
+    }
+
+    footer {
+        .icon {
+            a{
+                font-size: 12px;
+            }
+        }
+    } 
+
+    .company {
+        svg{
+            position: relative;
+            path{
+                fill: $dull_white;
+            }
+        }
+        .company_img{
+            position: absolute;
+            display: none;
+            }
+        }
+}
+
+@media (min-width:581px) and (max-width:600px){
+    nav .con {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        height: 9rem;
+        .login{
+            width: 100%;
+        }
+        .navigation{
+            width: 100%;
+            font-size: 1.5rem;
+        }
+        .name{
+            width: 100%;
+            padding: 0;
+        }
+        .navigation {
+            display: flex;
+            justify-content: center;
+            margin: 0.2rem;
+        }
+     }
+
+     .blog{
+        margin-top: 2rem;
+     }
+
+     
+     .company {
+        svg{
+            position: relative;
+            path{
+                fill: $dull_white;
+            }
+        }
+    
+        .company_img{
+            position: absolute;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+    
+            img{
+                width: 3rem;
+                height: 3rem;
+                border-radius: 50%;
+            }
+    
+            .row {
+            width: 100%;
+            margin: 0;
+    
+            .airbnb{
+                position: absolute;
+                width: 4rem;
+                height: 4rem;
+                bottom: 11rem;
+            }
+    
+            .goggle{
+                position: absolute;
+                bottom: 6rem;
+                right: 2rem;
+            }
+            
+            .lyft{
+                position: relative;
+                width: 4rem;
+                height: 4rem;
+                bottom: 8rem;
+                right: 5rem;
+            }
+    
+            .santandar{
+                position: absolute;
+                bottom: 11rem;
+                right: 3rem;
+            }
+    
+            .sony{
+                position: absolute;
+                bottom: 8rem;
+                right: 26rem;
+            }
+    
+            .uber{
+                position: relative;
+                bottom: 7rem;
+                right: 1rem;
+            }
+            }
+            
+            }
+            
+        }
+    
+}

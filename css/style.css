@@ -1,0 +1,431 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.btn {
+  background-color: #f39663;
+  color: #fff; }
+  .btn:hover {
+    background-color: #f39663;
+    color: #fff; }
+
+a {
+  text-decoration: none;
+  color: var(--white); }
+
+ul li {
+  list-style: none; }
+
+.heading {
+  color: #494444;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 3rem 0 1rem 0; }
+
+.blog, .published_blog {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #63a8f3;
+  background-image: linear-gradient(to right, #63a8f3, #5e69f3);
+  color: #fff; }
+
+nav .con {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  background-image: linear-gradient(to right, #63a8f3, #5e69f3);
+  z-index: 999; }
+  nav .con .login,
+  nav .con .navigation,
+  nav .con .name {
+    width: calc(100% / 3);
+    color: #fff; }
+  nav .con .name {
+    font-size: 2rem;
+    padding-left: 5rem;
+    font-weight: 700; }
+  nav .con .navigation {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 600; }
+    nav .con .navigation ul {
+      justify-content: space-between;
+      display: flex;
+      margin: 0;
+      padding: 0; }
+      nav .con .navigation ul li {
+        margin: 0rem 1rem; }
+  nav .con .login {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    nav .con .login button {
+      background-color: #5e69f3;
+      border: 1px solid #fff;
+      margin-left: 2rem;
+      color: #fff; }
+
+.popular_blogs .card {
+  border: none; }
+  .popular_blogs .card:hover {
+    border: 1px solid black;
+    cursor: pointer; }
+  .popular_blogs .card img {
+    width: 100%;
+    height: 10rem;
+    border-radius: 0.5rem; }
+  .popular_blogs .card .card-body p {
+    font-size: 12px; }
+  .popular_blogs .card .card-body ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0; }
+    .popular_blogs .card .card-body ul li {
+      list-style-type: none;
+      font-size: 10px;
+      color: grey; }
+      .popular_blogs .card .card-body ul li span {
+        color: black; }
+
+.start_blogi {
+  margin-top: 3rem; }
+  .start_blogi .row {
+    height: 20rem; }
+    .start_blogi .row .started_blogi {
+      background-color: #f8fbfd;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 2rem;
+      border-radius: 15px 0 0 15px; }
+      .start_blogi .row .started_blogi p {
+        width: 80%; }
+      .start_blogi .row .started_blogi .robert .img img {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%; }
+      .start_blogi .row .started_blogi .robert .name p {
+        margin: 0 1rem; }
+    .start_blogi .row .started_img {
+      background-color: #facd55;
+      height: 100%;
+      position: relative;
+      border-radius: 0 15px 15px 0; }
+      .start_blogi .row .started_img img {
+        width: 70%;
+        position: absolute;
+        top: 50%;
+        left: -15%;
+        transform: translate(0, -50%); }
+
+.featured_blogs .card {
+  margin-top: 3rem; }
+  .featured_blogs .card .card-img {
+    position: relative; }
+    .featured_blogs .card .card-img .card_bck img {
+      width: 100%;
+      height: 14rem; }
+    .featured_blogs .card .card-img .user_img {
+      position: absolute;
+      right: 2rem;
+      bottom: -2rem; }
+      .featured_blogs .card .card-img .user_img img {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%; }
+  .featured_blogs .card .card-body ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0; }
+    .featured_blogs .card .card-body ul li {
+      list-style-type: none;
+      font-size: 10px;
+      color: grey; }
+      .featured_blogs .card .card-body ul li span {
+        color: black; }
+
+.company svg {
+  position: relative; }
+  .company svg path {
+    fill: #f8fbfd; }
+.company .company_img {
+  position: absolute;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+  .company .company_img img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%; }
+  .company .company_img .row {
+    width: 100%;
+    margin: 0; }
+    .company .company_img .row .airbnb {
+      position: absolute;
+      bottom: 16rem;
+      width: 8rem;
+      height: 8rem;
+      border-radius: 50%; }
+    .company .company_img .row .goggle {
+      position: absolute;
+      bottom: 28rem; }
+    .company .company_img .row .lyft {
+      position: relative;
+      bottom: 17rem;
+      width: 8rem;
+      height: 8rem; }
+    .company .company_img .row .santandar {
+      position: absolute;
+      bottom: 16rem;
+      right: 44rem; }
+    .company .company_img .row .sony {
+      position: absolute;
+      bottom: 19rem;
+      right: 28rem; }
+    .company .company_img .row .uber {
+      position: relative;
+      bottom: 27rem;
+      right: -15rem; }
+
+.published_blog {
+  border-radius: 25px; }
+  .published_blog .mail {
+    background-color: #fff;
+    padding: 0.5rem;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px; }
+    .published_blog .mail input {
+      border: none;
+      outline: none;
+      font-size: 1rem; }
+
+footer {
+  color: #494444;
+  margin-top: 6rem; }
+  footer .row h3 {
+    padding-bottom: 7rem;
+    font-weight: bolder;
+    color: #494444; }
+  footer .row h5 {
+    font-size: 15px; }
+  footer .row ul {
+    padding: 0;
+    margin-top: 1rem; }
+  footer .icon {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #494444; }
+    footer .icon ul {
+      display: flex; }
+      footer .icon ul li {
+        margin-left: 1rem; }
+        footer .icon ul li:hover {
+          color: #f39663;
+          cursor: pointer; }
+
+@media (max-width: 389px) {
+  nav .con {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    height: 8rem; }
+    nav .con .login {
+      width: 100%; }
+    nav .con .navigation {
+      width: 100%;
+      font-size: 0.8rem; }
+    nav .con .name {
+      width: 100%;
+      padding: 0; }
+    nav .con .navigation {
+      display: flex;
+      justify-content: center;
+      margin: 0.2rem; }
+
+  .blog {
+    margin-top: 1rem;
+    text-align: center; }
+
+  .start_blogi {
+    margin-top: 3rem; }
+    .start_blogi .row {
+      height: 20rem; }
+      .start_blogi .row .started_blogi p {
+        width: 100%;
+        font-size: 12px; }
+
+  .featured_blogs .card .card-img .user_img img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%; }
+
+  footer .icon a {
+    font-size: 10px; }
+
+  .company svg {
+    position: relative; }
+    .company svg path {
+      fill: #f8fbfd; }
+  .company .company_img {
+    position: absolute;
+    display: none; } }
+@media (min-width: 390px) and (max-width: 400px) {
+  nav .con {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    height: 8rem; }
+    nav .con .login {
+      width: 100%; }
+    nav .con .navigation {
+      width: 100%;
+      font-size: 0.8rem; }
+    nav .con .name {
+      width: 100%;
+      padding: 0; }
+    nav .con .navigation {
+      display: flex;
+      justify-content: center;
+      margin: 0.2rem; }
+
+  .start_blogi {
+    margin-top: 3rem; }
+    .start_blogi .row {
+      height: 20rem; }
+      .start_blogi .row .started_blogi p {
+        width: 100%;
+        font-size: 12px; }
+
+  footer .icon a {
+    font-size: 12px; }
+
+  .company svg {
+    position: relative; }
+    .company svg path {
+      fill: #f8fbfd; }
+  .company .company_img {
+    position: absolute;
+    display: none; } }
+@media (min-width: 401px) and (max-width: 580px) {
+  nav .con {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    height: 8rem; }
+    nav .con .login {
+      width: 100%; }
+    nav .con .navigation {
+      width: 100%;
+      font-size: 1.5rem; }
+    nav .con .name {
+      width: 100%;
+      padding: 0; }
+    nav .con .navigation {
+      display: flex;
+      justify-content: center;
+      margin: 0.2rem; }
+
+  .blog {
+    margin-top: 2rem;
+    text-align: center; }
+
+  .start_blogi {
+    margin-top: 3rem; }
+    .start_blogi .row {
+      height: 20rem; }
+      .start_blogi .row .started_blogi p {
+        width: 100%;
+        font-size: 12px; }
+
+  footer .icon a {
+    font-size: 12px; }
+
+  .company svg {
+    position: relative; }
+    .company svg path {
+      fill: #f8fbfd; }
+  .company .company_img {
+    position: absolute;
+    display: none; } }
+@media (min-width: 581px) and (max-width: 600px) {
+  nav .con {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    height: 9rem; }
+    nav .con .login {
+      width: 100%; }
+    nav .con .navigation {
+      width: 100%;
+      font-size: 1.5rem; }
+    nav .con .name {
+      width: 100%;
+      padding: 0; }
+    nav .con .navigation {
+      display: flex;
+      justify-content: center;
+      margin: 0.2rem; }
+
+  .blog {
+    margin-top: 2rem; }
+
+  .company svg {
+    position: relative; }
+    .company svg path {
+      fill: #f8fbfd; }
+  .company .company_img {
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    margin: 0; }
+    .company .company_img img {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%; }
+    .company .company_img .row {
+      width: 100%;
+      margin: 0; }
+      .company .company_img .row .airbnb {
+        position: absolute;
+        width: 4rem;
+        height: 4rem;
+        bottom: 11rem; }
+      .company .company_img .row .goggle {
+        position: absolute;
+        bottom: 6rem;
+        right: 2rem; }
+      .company .company_img .row .lyft {
+        position: relative;
+        width: 4rem;
+        height: 4rem;
+        bottom: 8rem;
+        right: 5rem; }
+      .company .company_img .row .santandar {
+        position: absolute;
+        bottom: 11rem;
+        right: 3rem; }
+      .company .company_img .row .sony {
+        position: absolute;
+        bottom: 8rem;
+        right: 26rem; }
+      .company .company_img .row .uber {
+        position: relative;
+        bottom: 7rem;
+        right: 1rem; } }
+
+/*# sourceMappingURL=style.css.map */

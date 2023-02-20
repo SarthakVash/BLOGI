@@ -1,0 +1,343 @@
+@import "main";
+.blog, .published_blog {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $linear1_bg;
+  background-image: linear-gradient(to right, $linear1_bg, $linear2_bg);
+  color: $white;
+}
+
+nav .con {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  background-image: linear-gradient(to right, $linear1_bg, $linear2_bg);
+  z-index: 999;
+
+  .login,
+  .navigation,
+  .name {
+    width: calc(100% / 3);
+    color: $white;
+  }
+
+  .name {
+    font-size: 2rem;
+    padding-left: 5rem;
+    font-weight: 700;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+
+    ul {
+      justify-content: space-between;
+      display: flex;
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin: 0rem 1rem;
+      }
+    }
+  }
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button{
+        background-color: $linear2_bg;
+        border: 1px solid $white;
+        margin-left: 2rem;
+        color: $white;
+    
+    }
+  }
+}
+
+.popular_blogs{
+    .card{
+        border: none;
+
+        &:hover{
+            border: 1px solid black;
+            cursor: pointer;
+        }
+        
+         img{
+            width: 100%;
+            height: 10rem;
+            border-radius: 0.5rem;
+        }
+
+        .card-body {
+            p{
+                font-size: 12px;
+            }
+
+            ul{
+                display: flex;
+                justify-content: space-between;
+                padding: 0;
+                
+                li{
+                    list-style-type: none;
+                    font-size: 10px;
+                    color: $light_grey;
+                    span{
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.start_blogi{
+    margin-top: 3rem;
+    .row{
+        height: 20rem;
+        .started_blogi{
+            background-color: $dull_white;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 2rem;
+            border-radius: 15px 0 0 15px;
+
+            p{
+                width: 80%;
+            }
+
+            .robert{
+                
+                .img{
+
+                    img{
+                        width: 4rem;
+                        height: 4rem;
+                        border-radius: 50%;
+                    }
+                }
+                .name{
+                    p{
+                        margin: 0 1rem;
+
+
+                    }
+                }
+            }
+        }
+        
+        .started_img{
+            background-color: $yellow;
+            height: 100%;
+            position: relative;
+            border-radius: 0 15px 15px 0;
+
+            img{
+                width: 70%;
+                position: absolute;
+                top: 50%;
+                left: -15%;
+                transform: translate(0, -50%);
+            }
+        }
+    }
+}
+
+.featured_blogs {
+
+    .card{
+        margin-top: 3rem;
+        .card-img{
+            position: relative;
+            .card_bck{
+                
+                img{
+                    width: 100%;
+                    height: 14rem;
+                    
+                }
+            }
+
+            .user_img{
+                position: absolute;
+                right: 2rem;
+                bottom: -2rem;
+                img{
+                    width: 4rem;
+                    height: 4rem;
+                    border-radius: 50%;
+                    
+
+                }
+            }
+        }
+
+        .card-body{
+            ul{
+                display: flex;
+                justify-content: space-between;
+                padding: 0;
+                
+                li{
+                    list-style-type: none;
+                    font-size: 10px;
+                    color: $light_grey;
+                    span{
+                        color: black;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.company {
+    svg{
+        position: relative;
+        path{
+            fill: $dull_white;
+        }
+    }
+
+    .company_img{
+        position: absolute;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+        img{
+            width: 6rem;
+            height: 6rem;
+            border-radius: 50%;
+        }
+
+        .row {
+        width: 100%;
+        margin: 0;
+
+        .airbnb{
+            position: absolute;
+            bottom: 16rem;
+            width: 8rem;
+            height: 8rem;
+            border-radius: 50%;
+        }
+
+        .goggle{
+            position: absolute;
+            bottom: 28rem;
+        }
+        
+        .lyft{
+            position: relative;
+            bottom: 17rem;
+            width: 8rem;
+            height: 8rem;
+        }
+
+        .santandar{
+            position: absolute;
+            bottom: 16rem;
+            right: 44rem;
+        }
+
+        .sony{
+            position: absolute;
+            bottom: 19rem;
+            right: 28rem;
+
+        }
+
+        .uber{
+            position: relative;
+            bottom: 27rem;
+            right: -15rem;
+        }
+        }
+        
+        }
+        
+    }
+
+
+.published_blog{
+    border-radius: 25px;
+
+    .mail{
+        background-color: $white;
+        padding: 0.5rem ;
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 5px;
+
+        input{
+            border: none;
+            outline: none;
+            font-size: 1rem;
+        }
+    }
+}
+
+footer {
+    color: $light_black;
+    margin-top: 6rem;
+    .row{
+
+        h3{
+            padding-bottom: 7rem;
+            font-weight: bolder;
+            color: $light_black;
+        }
+
+        h5{
+            font-size: 15px;
+        }
+        ul{
+            padding: 0;
+            margin-top: 1rem;
+        }
+    }
+
+    .icon {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        color: $light_black;
+        ul{
+            display: flex;
+            
+            li{
+                margin-left: 1rem;
+
+                &:hover{
+                    color: $orange;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+
+@import "media";
+
+
